@@ -12,7 +12,7 @@ function scrollToElement(elementSelector, instance = 0) {
 function rotateImageOnScroll() {
     const headerImage = document.querySelector('.image img');
     const scrollY = window.scrollY || window.pageYOffset;
-    const rotationValue = `rotate(${scrollY / 5}deg)`; // Adjust the division factor to control the rotation speed
+    const rotationValue = `rotate(${scrollY / 10}deg)`; // Adjust the division factor to control the rotation speed
 
     headerImage.style.transform = rotationValue;
 }
